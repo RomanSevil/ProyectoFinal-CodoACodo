@@ -1,0 +1,116 @@
+ nav.navbar {
+    background-color: #000 !important;
+
+ }
+
+
+ ul.navbar-nav .nav-link {
+    color: #fff;
+ }
+
+ ul.navbar-nav .nav-link:hover {
+    color: #008000;
+ }
+
+ ul.dropdown-menu .dropdown-item {
+    color: #fff;
+
+ }
+
+ ul.dropdown-menu {
+    background-color: #000;
+ }
+
+ 
+
+
+ .custom-toggler.navbar-toggler {
+    border-color: #008000;
+ }
+
+ .custom-dropdown-menu .dropdown-item:hover {
+    background-color: #000;
+    color: #008000;
+ }
+
+ .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+ #carouselExampleAutoplaying {
+    max-height: 800px;
+    overflow: hidden;
+
+ }
+
+ .carousel-item img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+ }
+
+ h1 {
+    text-align: center;
+ }
+
+ .card {
+    height: 14rem;
+    border-radius: 0;
+    height: 100%;
+    /*transition: transform 0.2s ease;*/
+ }
+
+ .card:hover {
+    /*transform: scale(1.05);*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+ }
+
+ .card-img {
+    object-fit: cover;
+    height: 100%;
+    
+ }
+
+ .card-title{
+   font-weight: 900;
+   text-transform: uppercase;
+   text-align: center;   
+   color: #ffffff;
+   margin-top: 30px;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   font-size: 24px;
+ }
+
+ .no-shadow {
+   text-shadow: none;
+ }
+
+ @media (max-width: 576px) {
+    .card {
+       width: 100%;
+    }
+ }
+
+ main{
+   position: relative;
+ }
+
+footer{
+   background-color: #343a40 !important;
+   
+ }
+
+ 
+
+ .my-4 {
+   margin-top: 0!important;
+   margin-bottom: 0!important;
+}
+
+ footer , footer a , footer i{
+   color: #fff !important;
+ }
+
+ 
+
