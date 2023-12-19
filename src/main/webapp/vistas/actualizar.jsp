@@ -36,7 +36,7 @@
                 <div class="form-group">
                     <label for="categoria">Categoria:</label>
                     <select id="categoria" name="categoria" class="form-select border border-dark rounded-0">
-                        <option value="CLIENTE" ${cliente.categoria.name() == 'CLIENTE' ? 'selected' : ''}>Sin categoria</option>
+                        <option value="SIN_CATEGORIA" ${cliente.categoria.name() == 'SIN_CATEGORIA' ? 'selected' : ''}>Sin categoria</option>
                         <option value="ESTUDIANTE" ${cliente.categoria.name() == 'ESTUDIANTE' ? 'selected' : ''}>Estudiante</option>
                         <option value="JUBILADO" ${cliente.categoria.name() == 'JUBILADO' ? 'selected' : ''}>Jubilado</option>
                         <option value="EMPRESA" ${cliente.categoria.name() == 'EMPRESA' ? 'selected' : ''}>Empresa</option>
