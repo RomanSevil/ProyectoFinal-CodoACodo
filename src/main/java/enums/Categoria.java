@@ -9,7 +9,7 @@ package enums;
  * @author usuario
  */
 public enum Categoria {
-    CLIENTE,
+    SIN_CATEGORIA,
     ESTUDIANTE,
     JUBILADO,
     EMPRESA,
